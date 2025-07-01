@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-P6-TM09A</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 9A 6to Primaria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos de Aprendizaje</strong>
+                                    <ul>
+                                        <li>Que los estudiantes comprendan el concepto de sesgo algorítmico (algorithmic bias) de una manera práctica y tangible. Que discutan cómo las decisiones humanas durante el entrenamiento de un modelo de IA pueden llevar a resultados injustos o inesperados. El objetivo principal es que diseñen un experimento para entrenar deliberadamente a la AI-Lens con datos sesgados y predigan el resultado de dicho entrenamiento.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase</strong>
+                                    <ul>
+                                        <li>⚡Saludo de I.A. con todos</li>
+                                        <li>⚡A.I. GYM (Análisis Profundo)</li>
+                                        <li>⚡VIBE CODING (Diseño del Experimento de Sesgo)</li>
+                                        <li>⚡ANÁLISIS DEL CONCEPTO Y PLANIFICACIÓN DE PRUEBAS</li>
+                                        <li>⚡GNIUS STORM (Cierre de Sesión A)</li>
+                                    </ul>
+                                    <strong>Entregable Clave</strong>
+                                    <ul>
+                                        <li>"Protocolo de Entrenamiento Sesgado" documentado por cada equipo, listo para la Sesión 9B.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Acceso al entorno de programación Python.</li>
+                                        <li>Robots XGO V2 (1 por cada 4 estudiantes), cargados.</li>
+                                        <li>Varios objetos para el experimento (ej. objetos de diferentes colores y formas: cubos LEGO, pompones, tapones, etc.).</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Chat de Agente Gnius (Xolo) activo.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna)</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet y entorno Python.</li>
+                                                <li>Asegurar carga de los robots XGO V2.</li>
+                                                <li>Tener los objetos para el experimento listos.</li>
+                                                <li>Tener la presentación de diapositivas lista.</li>
+                                                <li>Probar el chat Agente Gnius (Xolo).</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización</strong> Revisar el flujo de la sesión, diálogos y tiempos.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de I.A. con todos ⏰ 2 minutos</h2>
+                <p><strong>Propósito:</strong> Crear un ambiente acogedor y guiar a los estudiantes para que activen y personalicen la interacción con el agente de IA, Xolo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción Inicial ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 2) Da la bienvenida a los estudiantes y guíalos para que activen a Xolo en el chat.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola, Científicos de Ética! 👋 ¡Bienvenidos a una misión muy importante! Hoy vamos a investigar uno de los mayores desafíos de la IA. Antes de empezar, vamos a activar a nuestro amigo Xolo. Por favor, salúdenlo en el chat y díganle su nombre y cuáles son sus gustos e intereses. Por ejemplo 'Hola Xolo, soy Javier y me interesa la justicia y cómo funcionan las cosas'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Monitoreo y Verificación ⏰ 1 minuto</h3>
+                            <p>Asegúrate de que todos los estudiantes hayan recibido una respuesta de Xolo para continuar.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelente, Xolo está listo para esta importante investigación! Asegúrense de que todos hayan escrito su nombre y sus gustos. Si Xolo no les ha respondido, ¡avísenme!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2 A.I. GYM (Análisis Profundo) ⏰ 12 minutos</h2>
+                <p><strong>Propósito</strong> Introducir el concepto de Sesgo Algorítmico y la importancia de los datos de entrenamiento a través de analogías y ejemplos del mundo real.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Presentación Conceptual y Comando para Xolo ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositiva 3) Presenta el dilema de la justicia en la IA y luego instruye a los alumnos sobre cómo pedirle la explicación detallada a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien! Ahora que todos están listos, vamos al A.I. GYM. Equipos, hemos entrenado a nuestra IA para que reconozca objetos y la hemos llamado 'inteligente'. Pero, ¿es la IA siempre justa? Imaginen una IA diseñada para contratar al 'mejor candidato' para un trabajo. Si en el pasado la mayoría de los ingenieros eran hombres, y entrenamos a la IA con esos datos históricos, ¿a quién creen que la IA preferirá contratar en el futuro? Hoy exploraremos uno de los problemas más grandes y peligrosos de la IA: el sesgo.</p>
+                                <p class="dialogue assistant">Para que la explicación sea personalizada para ustedes, escriban en el chat el siguiente comando: 'Mi perfil es [escribe aquí tu perfil] y quiero que me enseñes sobre el Sesgo Algorítmico'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Monitoreo de Interacción y Síntesis ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositivas 4 y 5) Monitorea a los alumnos mientras interactúan con Xolo y resume los puntos clave que están aprendiendo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Fantástico! Xolo les está explicando que el sesgo algorítmico ocurre cuando la IA aprende de datos que reflejan nuestros propios prejuicios. Les está presentando la regla de oro: "Garbage In, Garbage Out" (Basura Entra, Basura Sale). ¡Si los datos son malos, las decisiones de la IA serán malas!</p>
+                                <p class="dialogue assistant">Les está contando que hoy vamos a demostrar esto con un experimento: entrenaremos a nuestra IA de forma sesgada para ver cómo reacciona.</p>
+                                <p class="dialogue assistant">Si algo no queda claro, ¡recuerden que pueden preguntarle directamente a Xolo! Prueben con <br><strong>'¿La IA puede ser racista?'</strong><br><strong>'Dame otro ejemplo de "Garbage In, Garbage Out"'</strong><br><strong>'¿Quién tiene la culpa si una IA es injusta?'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3 VIBE CODING (Diseño del Experimento de Sesgo) ⏰ 14 minutos</h2>
+                <p><strong>Propósito</strong> Permitir a los estudiantes diseñar en equipo un experimento para demostrar el sesgo, eligiendo una variable y formulando una hipótesis.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción del Profesor ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 6) Motiva a los equipos a convertirse en "Científicos de Ética en IA" y a diseñar su experimento.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien, con esos conceptos claros, a diseñar el experimento! Ahora, como equipo de 'Científicos de Ética en IA', diseñen su experimento. El objetivo es crear un conjunto de datos de entrenamiento sesgado. ¡Discutan y decidan cómo van a 'engañar' a su IA! Si no se les ocurre nada, ¡no hay problema! Escriban en el chat con Xolo el comando exacto: 'Exploremos ideas juntos'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Lluvia de Ideas y Diseño del Experimento ⏰ 10 minutos</h3>
+                            <p>(Proyectar Diapositivas 7 y 8) Guía la discusión del equipo para definir el objetivo, el sesgo y la hipótesis de su experimento.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Discutan en su equipo de 4. Primero, <strong>El Objetivo</strong>: ¿Qué debe reconocer la IA? Por ejemplo, "premios". Segundo, <strong>El Sesgo</strong>: ¿Cómo la van a entrenar injustamente? ¿Usando solo un color? ¿Solo una forma? Tercero, <strong>La Hipótesis</strong>: Hagan una predicción. Por ejemplo: "Si entrenamos a la IA solo con objetos rojos, ¿creen que reconocerá un cubo de LEGO azul como 'premio'?". Discutan y anoten su predicción y el porqué.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4 ANÁLISIS DEL CONCEPTO Y PLANIFICACIÓN DE PRUEBAS ⏰ 7 minutos</h2>
+                <p><strong>Propósito</strong> Fomentar que los equipos formalicen su diseño experimental en un protocolo claro y replicable.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Planificación de Pruebas (Actividad Clave) ⏰ 7 minutos</h3>
+                            <p>(Proyectar Diapositiva 9) Guía a los equipos para que creen su entregable: un "Protocolo de Entrenamiento Sesgado".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Genial! Ahora formalicen su plan. Escriban su 'Protocolo de Entrenamiento Sesgado'. Debe ser muy claro para que cualquiera pueda replicar su experimento. Este es su plan para la próxima sesión. Recuerden alternar quién programa:</p>
+                                <ul>
+                                    <li><p class="dialogue assistant"><strong>1. Objeto de Entrenamiento (ID 1):</strong> Definir la categoría sesgada. Ej: "Cualquier objeto que sea de color ROJO".</p></li>
+                                    <li><p class="dialogue assistant"><strong>2. Lista de Objetos de Entrenamiento:</strong> Listar 3-4 objetos que cumplen la regla. Ej: "Cubo LEGO rojo, pompón rojo, tapón rojo".</p></li>
+                                    <li><p class="dialogue assistant"><strong>3. Objeto de Prueba (El Desafío):</strong> Definir el objeto que se usará para probar el sesgo. Ej: "Un cubo de LEGO de color AZUL".</p></li>
+                                    <li><p class="dialogue assistant"><strong>4. Hipótesis/Predicción:</strong> Escribir claramente lo que esperan que suceda. Ej: "La IA NO reconocerá el cubo azul como ID 1 porque no es rojo."</p></li>
+                                </ul>
+                                <p class="dialogue assistant">Y este será el código simple que usaremos para probarlo:</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;"># Código para Probar el Sesgo
+import ai, time
+# ... (inicialización) ...
+ai.switch_function(ai.Learn) # Modo de reconocimiento
+while True:
+    datos = ai.get_learn_data()
+    if datos:
+        print("Veo el objeto con ID:", datos[0])
+    else:
+        print("No veo ningún objeto conocido.")
+    time.sleep(1)</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5 GNIUS STORM (Cierre de Sesión A) ⏰ 5 minutos</h2>
+                <p><strong>Propósito</strong> Realizar un cierre dinámico donde los equipos comparten sus diseños de experimentos y predicciones, generando expectación para la sesión práctica.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Compartir Planes ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 10) Pide a un portavoz de cada equipo que comparta brevemente su experimento.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien, equipos! Para cerrar, un portavoz de cada equipo va a compartir el sesgo que decidieron introducir en su entrenamiento (ej. "sesgo de color rojo") y su predicción sobre qué pasará cuando le muestren el objeto de prueba. ¡Queremos escuchar esas hipótesis!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Cierre y Próximos Pasos ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 11) Concluye la sesión, validando el trabajo de los estudiantes y adelantando la emoción de la siguiente sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelentes diseños experimentales! Han planeado cómo demostrar uno de los conceptos más importantes y sutiles de la IA. No están programando un robot para que se mueva, están programando a una IA para que 'piense' de forma sesgada. En la próxima sesión, llevarán a cabo su experimento y veremos si sus predicciones sobre el sesgo algorítmico son correctas. ¡Prepárense para ver la IA desde una perspectiva completamente nueva!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
