@@ -17,6 +17,15 @@
                 <button id="global-start-stop">Start</button>
                 <button id="global-reset">Reset</button>
             </div>
+            <!-- Estructura del Theme Toggle agregada -->
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
         </div>
     </header>
     <div class="main-container">
@@ -49,6 +58,7 @@
                 <div class="command-section xolo-prompt">
                     <h3>🤖 Prompt de Referencia para XOLO (Solo para Maestro)</h3>
                     <div class="prompt-box">
+                        <!-- Estructura de botón de copiado agregada -->
                         <div class="prompt-header">
                             <span class="prompt-label">⚠️ NOTA: XOLO ya conoce el tema de esta misión. Este prompt es SOLO de referencia en caso de emergencia técnica:</span>
                             <button class="copy-btn" onclick="copyPrompt('main-prompt')">
@@ -74,7 +84,7 @@
                         <div class="essential-card">
                             <div class="essential-icon">🧪</div>
                             <h4>Experimentación</h4>
-                            <p>Probar con diferentes cantidades de tarjetas de entrenamiento para entender las limitaciones de los datos.</p>
+                            <p>Probar con diferentes cantidades de tarjetas de entrenamiento para entender las limitaciones del reconocimiento.</p>
                         </div>
                         <div class="essential-card">
                             <div class="essential-icon">💬</div>
@@ -89,8 +99,8 @@
                         <label><input type="checkbox"> Proyector/pantalla + presentación (5 diapositivas)</label>
                         <label><input type="checkbox"> Internet estable + Gnius Space con XOLO activo</label>
                         <label><input type="checkbox"> Micro:bit (1 por cada 4 estudiantes)</label>
-<label><input type="checkbox"> Robot XGO (1 por cada 4 estudiantes)</label>
-<label><input type="checkbox"> Smart A.I. Lens (1 por cada 4 estudiantes)</label>
+                        <label><input type="checkbox"> Robot XGO (1 por cada 4 estudiantes)</label>
+                        <label><input type="checkbox"> Smart A.I. Lens (1 por cada 4 estudiantes)</label>
                         <label><input type="checkbox"> Acceso a MakeCode (https://makecode.microbit.org/) con extensión Smart A.I. Lens instalada</label>
                         <label><input type="checkbox"> Tarjetas de colores u objetos variados para entrenamiento</label>
                         <label><input type="checkbox"> ⚠️ Esta misión usa programación con BLOQUES en MakeCode</label>
@@ -149,8 +159,8 @@
                         <ul>
                             <li><strong>Si los alumnos no pueden ingresar a Gnius Space:</strong> Activa XOLO SOS en <a href="https://xolo.gnius.club" target="_blank">xolo.gnius.club</a> para continuar la misión sin interrumpir la clase.</li>
                             <li><strong>Si el XGO no responde:</strong> Verificar que la batería esté cargada y bien conectada. Revisar que el micro:bit esté correctamente insertado en el slot.</li>
-<li><strong>Si la Smart A.I. Lens no reconoce las tarjetas:</strong> Revisar la iluminación del salón (evitar luz directa o sombras fuertes). Asegurarse de que el lente esté limpio.</li>
-<li><strong>Si hay errores en el código:</strong> Recordar a los estudiantes que XOLO puede ayudar a depurar. Pídeles que copien el error y se lo muestren a XOLO.</li>
+                            <li><strong>Si la Smart A.I. Lens no reconoce las tarjetas:</strong> Revisar la iluminación del salón (evitar luz directa o sombras fuertes). Asegurarse de que el lente esté limpio.</li>
+                            <li><strong>Si hay errores en el código:</strong> Recordar a los estudiantes que XOLO puede ayudar a depurar. Pídeles que copien el error y se lo muestren a XOLO.</li>
                         </ul>
                     </div>
                 </div>
@@ -161,6 +171,8 @@
                     <h2>🚀 Actividad 1: Intro a la Misión</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 2:00</span>
+                        <!-- Botón de timer agregado -->
+                        <button class="timer-start-btn" data-duration="120">Iniciar</button>
                     </div>
                 </div>
                 <div class="roles-section">
@@ -205,6 +217,8 @@
                     <h2>🧠 Actividad 2: A.I. Gym</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 8:00</span>
+                        <!-- Botón de timer agregado -->
+                        <button class="timer-start-btn" data-duration="480">Iniciar</button>
                     </div>
                 </div>
                 <div class="roles-section">
@@ -250,6 +264,7 @@
                 </div>
                 
                 <div class="optional-script">
+                    <!-- Javascript inline eliminado -->
                     <button class="collapsible-button">📖 Ver guion detallado (opcional)</button>
                     <div class="collapsible-content">
                         <p class="dialogue assistant">Ahora vamos a descubrir un secreto de la tecnología: ¡la IA no siempre es neutral! Abran el chat con XOLO y salúdenlo. XOLO ya los conoce y sabe exactamente qué les va a enseñar hoy. No necesitan escribir un prompt especial, solo empiecen a platicar con él. Van a explorar cómo la Smart A.I. Lens aprende de lo que nosotros le mostramos. Si le damos datos incompletos, ¿qué pasará? Pregúntenle todo a XOLO, él les explicará cómo los datos pueden "engañar" a su robot.</p>
@@ -262,6 +277,8 @@
                     <h2>💡 Actividad 3: Brain Spark</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 20:00</span>
+                        <!-- Botón de timer agregado -->
+                        <button class="timer-start-btn" data-duration="1200">Iniciar</button>
                     </div>
                 </div>
                 <div class="roles-section">
@@ -311,6 +328,7 @@
                     </div>
                 </div>
                 <div class="optional-script">
+                    <!-- Javascript inline eliminado -->
                     <button class="collapsible-button">📖 Ver guion detallado (opcional)</button>
                     <div class="collapsible-content">
                         <p class="dialogue assistant">¡Es hora de crear nuestra propia demostración científica! Vamos a idear un experimento donde el XGO demuestre una "preferencia injusta". El flujo es: idear con XOLO, definir el VIBE, recibir el GCS, pasarlo a MakeCode y experimentar. Por ejemplo, podrían entrenar al robot para que solo se emocione con tarjetas rojas y ignore las azules, demostrando cómo un entrenamiento desigual crea un comportamiento sesgado. Sigan las preguntas de experimentación para registrar sus resultados. Recuerden entregar el hardware con cuidado al final. Si tienen errores o dudas, pregúntenle a XOLO, él los ayudará a depurar.</p>
@@ -330,6 +348,8 @@
                     <h2>⚡ Actividad 4: Gnius STORM - Compartir y Reflexionar</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 5:00</span>
+                        <!-- Botón de timer agregado -->
+                        <button class="timer-start-btn" data-duration="300">Iniciar</button>
                     </div>
                 </div>
                 <div class="roles-section">
@@ -384,6 +404,8 @@
                     <h2>✅ Actividad 5: Entrega de Evidencias</h2>
                     <div class="activity-timer">
                         <span class="activity-duration">⏱️ 5:00</span>
+                        <!-- Botón de timer agregado -->
+                        <button class="timer-start-btn" data-duration="300">Iniciar</button>
                     </div>
                 </div>
                 <div class="roles-section">
@@ -428,5 +450,5 @@
         </main>
     </div>
     <script src="script.js"></script>
-    </body>
-</html></html>
+</body>
+</html>
